@@ -1,0 +1,41 @@
+2019-12-23 15:54:40.141 [main] INFO  c.z.s.SpringbootWebTemplateApplication - Starting SpringbootWebTemplateApplication on Wade-Why with PID 16652 (F:\MyIdeaProgram\SpringBoot\springboot\springboot-web-template\target\classes started by wadewhy in F:\MyIdeaProgram\SpringBoot\springboot)
+2019-12-23 15:54:40.147 [main] INFO  c.z.s.SpringbootWebTemplateApplication - The following profiles are active: dev
+2019-12-23 15:54:42.229 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-12-23 15:54:42.249 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-23 15:54:42.249 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-23 15:54:42.253 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-23 15:54:42.253 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-12-23 15:54:42.254 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-23 15:54:42.254 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-23 15:54:43.406 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-12-23 15:54:43.573 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-23 15:54:43.574 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3338 ms
+2019-12-23 15:54:43.784 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-23 15:54:44.104 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-23 15:54:44.109 [main] INFO  c.z.s.SpringbootWebTemplateApplication - Started SpringbootWebTemplateApplication in 5.282 seconds (JVM running for 10.158)
+2019-12-23 15:54:57.473 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-23 15:54:57.473 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-12-23 15:54:57.484 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-12-23 15:54:58.387 [http-nio-8080-exec-7] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter found for return value of type: class java.util.LinkedHashMap]
+2019-12-23 15:54:58.387 [http-nio-8080-exec-3] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter found for return value of type: class java.util.LinkedHashMap]
+2019-12-23 15:54:58.387 [http-nio-8080-exec-4] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter found for return value of type: class java.util.LinkedHashMap]
+2019-12-23 15:54:58.912 [http-nio-8080-exec-6] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter found for return value of type: class java.util.LinkedHashMap]
+2019-12-23 15:54:59.169 [http-nio-8080-exec-8] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter found for return value of type: class java.util.LinkedHashMap]
+2019-12-23 16:23:11.720 [main] INFO  c.z.s.SpringbootWebTemplateApplication - Starting SpringbootWebTemplateApplication on Wade-Why with PID 24104 (F:\MyIdeaProgram\SpringBoot\springboot\springboot-web-template\target\classes started by wadewhy in F:\MyIdeaProgram\SpringBoot\springboot)
+2019-12-23 16:23:11.727 [main] INFO  c.z.s.SpringbootWebTemplateApplication - The following profiles are active: dev
+2019-12-23 16:23:13.291 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-12-23 16:23:13.306 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-23 16:23:13.306 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-23 16:23:13.309 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-23 16:23:13.310 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-12-23 16:23:13.311 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-23 16:23:13.311 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-23 16:23:14.410 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-12-23 16:23:14.558 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-23 16:23:14.559 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2751 ms
+2019-12-23 16:23:14.859 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-23 16:23:15.159 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-23 16:23:15.164 [main] INFO  c.z.s.SpringbootWebTemplateApplication - Started SpringbootWebTemplateApplication in 4.065 seconds (JVM running for 7.639)
+2019-12-23 16:37:06.506 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-23 16:37:06.506 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-12-23 16:37:06.518 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms

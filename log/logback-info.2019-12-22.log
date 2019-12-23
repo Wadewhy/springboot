@@ -1,0 +1,44 @@
+14:25:32.273 [main] INFO  com.zzh.springbootlogback.Springbootwebstaticfile - Starting Springbootwebstaticfile on Wade-Why with PID 12636 (F:\MyIdeaProgram\SpringBoot\springboot\springboot-web-staticfile\target\classes started by wadewhy in F:\MyIdeaProgram\SpringBoot\springboot)
+14:25:32.277 [main] INFO  com.zzh.springbootlogback.Springbootwebstaticfile - The following profiles are active: prod
+14:25:34.025 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+14:25:34.042 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+14:25:34.043 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:25:34.044 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+14:25:34.047 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+14:25:34.047 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+14:25:34.047 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+14:25:34.047 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14:25:35.292 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+14:25:35.446 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:25:35.446 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3087 ms
+14:25:35.625 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:25:35.824 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+14:25:35.873 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+14:25:35.878 [main] INFO  com.zzh.springbootlogback.Springbootwebstaticfile - Started Springbootwebstaticfile in 4.598 seconds (JVM running for 7.97)
+14:26:36.743 [main] INFO  Springbootwebstaticfile - Starting Springbootwebstaticfile on Wade-Why with PID 12708 (F:\MyIdeaProgram\SpringBoot\springboot\springboot-web-staticfile\target\classes started by wadewhy in F:\MyIdeaProgram\SpringBoot\springboot)
+14:26:36.749 [main] INFO  Springbootwebstaticfile - The following profiles are active: prod
+14:26:36.902 [main] WARN  o.s.b.c.ConfigurationWarningsApplicationContextInitializer - 
+
+** WARNING ** : Your ApplicationContext is unlikely to start due to a @ComponentScan of the default package.
+
+
+14:27:05.706 [main] INFO  c.z.s.Springbootwebstaticfile - Starting Springbootwebstaticfile on Wade-Why with PID 9516 (F:\MyIdeaProgram\SpringBoot\springboot\springboot-web-staticfile\target\classes started by wadewhy in F:\MyIdeaProgram\SpringBoot\springboot)
+14:27:05.709 [main] INFO  c.z.s.Springbootwebstaticfile - The following profiles are active: prod
+14:27:07.005 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+14:27:07.014 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+14:27:07.015 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:27:07.016 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+14:27:07.017 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+14:27:07.017 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+14:27:07.018 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+14:27:07.018 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14:27:08.074 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+14:27:08.174 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:27:08.175 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2389 ms
+14:27:08.366 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:27:08.503 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+14:27:08.528 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+14:27:08.532 [main] INFO  c.z.s.Springbootwebstaticfile - Started Springbootwebstaticfile in 3.618 seconds (JVM running for 7.026)
+14:28:44.449 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:28:44.450 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:28:44.462 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms

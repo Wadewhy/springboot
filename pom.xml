@@ -18,6 +18,9 @@
     <modules>
         <module>springboot-hello</module>
         <module>springboot-properties</module>
+        <module>springboot-logback</module>
+        <module>springboot-web-staticfile</module>
+        <module>springboot-web-template</module>
     </modules>
 
 

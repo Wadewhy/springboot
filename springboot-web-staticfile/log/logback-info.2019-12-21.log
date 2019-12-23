@@ -1,0 +1,21 @@
+22:25:17.783 [main] INFO  com.zzh.springbootlogback.LogbackTest - Starting LogbackTest on Wade-Why with PID 7536 (started by wadewhy in F:\MyIdeaProgram\SpringBoot\springboot\springboot-logback)
+22:25:17.877 [main] INFO  com.zzh.springbootlogback.LogbackTest - The following profiles are active: prod
+22:25:20.869 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+22:25:21.490 [main] INFO  com.zzh.springbootlogback.LogbackTest - Started LogbackTest in 4.786 seconds (JVM running for 7.164)
+22:25:22.081 [main] INFO  com.zzh.springbootlogback.LogbackTest - Info 日志...
+22:25:22.083 [main] WARN  com.zzh.springbootlogback.LogbackTest - Warn 日志...
+22:25:22.106 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+22:35:47.316 [main] INFO  com.zzh.springbootlogback.LogbackTest - Starting LogbackTest on Wade-Why with PID 14708 (started by wadewhy in F:\MyIdeaProgram\SpringBoot\springboot\springboot-logback)
+22:35:47.318 [main] INFO  com.zzh.springbootlogback.LogbackTest - The following profiles are active: prod
+22:35:49.848 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+22:35:50.339 [main] INFO  com.zzh.springbootlogback.LogbackTest - Started LogbackTest in 4.634 seconds (JVM running for 7.367)
+22:35:50.662 [main] INFO  com.zzh.springbootlogback.LogbackTest - Info 日志...
+22:35:50.662 [main] WARN  com.zzh.springbootlogback.LogbackTest - Warn 日志...
+22:35:50.680 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+22:39:38.739 [main] INFO  com.zzh.springbootlogback.LogbackTest - Starting LogbackTest on Wade-Why with PID 15240 (started by wadewhy in F:\MyIdeaProgram\SpringBoot\springboot\springboot-logback)
+22:39:38.741 [main] INFO  com.zzh.springbootlogback.LogbackTest - The following profiles are active: prod
+22:39:41.558 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+22:39:42.099 [main] INFO  com.zzh.springbootlogback.LogbackTest - Started LogbackTest in 4.852 seconds (JVM running for 6.97)
+22:39:42.476 [main] INFO  com.zzh.springbootlogback.LogbackTest - Info 日志...
+22:39:42.476 [main] WARN  com.zzh.springbootlogback.LogbackTest - Warn 日志...
+22:39:42.505 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
