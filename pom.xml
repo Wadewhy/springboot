@@ -23,6 +23,7 @@
         <module>springboot-web-template</module>
         <module>springboot-web-interceptor</module>
         <module>springboot-web-servlet-filter-listener</module>
+        <module>springboot-web-error</module>
     </modules>
 
 
