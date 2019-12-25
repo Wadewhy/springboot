@@ -24,6 +24,8 @@
         <module>springboot-web-interceptor</module>
         <module>springboot-web-servlet-filter-listener</module>
         <module>springboot-web-error</module>
+        <module>springboot-banner</module>
+        <module>springboot-data-jdbc</module>
     </modules>
 
 
