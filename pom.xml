@@ -26,6 +26,7 @@
         <module>springboot-web-error</module>
         <module>springboot-banner</module>
         <module>springboot-data-jdbc</module>
+        <module>springboot-data-jpa</module>
     </modules>
 
 
