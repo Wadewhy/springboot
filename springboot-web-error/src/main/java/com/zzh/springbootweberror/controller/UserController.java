@@ -37,6 +37,7 @@ public class UserController {
     }
 
 
+
     /**
      * 登录
      *
@@ -63,6 +64,9 @@ public class UserController {
      */
     @GetMapping(value = "/user/1")
     public String getUserById(Model model) {
+        int[] a={1,2,3};
+        //测试异常处理
+        System.out.println(a[3]);
         User user1 = new User("Darcy", "password", 24, new Date(), Arrays.asList("Java", "GoLang"));
         User user2 = new User("Chris", "password", 22, new Date(), Arrays.asList("Java", "Web"));
         ArrayList<User> userList = new ArrayList<>();
