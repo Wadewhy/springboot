@@ -28,6 +28,7 @@
         <module>springboot-data-jdbc</module>
         <module>springboot-data-jpa</module>
         <module>springboot-data-mybatis</module>
+        <module>springboot-data-mybatis-page</module>
     </modules>
 
 
@@ -56,6 +57,7 @@
 
     <build>
         <plugins>
+
             <!-- 注意: 因为我们不需要demo-parent是一个可运行的项目，所以修改原来的打包方式为maven打包方式 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

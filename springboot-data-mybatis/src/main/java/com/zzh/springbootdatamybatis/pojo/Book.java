@@ -1,7 +1,10 @@
 package com.zzh.springbootdatamybatis.pojo;
 
+import lombok.ToString;
+
 import java.util.Date;
 
+@ToString
 public class Book {
     /**
      *

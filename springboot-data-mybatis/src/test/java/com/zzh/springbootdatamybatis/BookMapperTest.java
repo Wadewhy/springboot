@@ -1,5 +1,6 @@
-package com.zzh.springbootdatamybatis.dao;
+package com.zzh.springbootdatamybatis;
 
+import com.zzh.springbootdatamybatis.dao.BookMapper;
 import com.zzh.springbootdatamybatis.pojo.Book;
 import org.junit.Assert;
 import org.junit.Test;
@@ -10,7 +11,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -31,7 +31,7 @@ public class BookMapperTest {
     public void testSelectByAuthro() {
         List<Book> bookList = bookMapper.selectByAuthor("金庸");
         Assert.assertNotNull(bookList);
-        bookList.forEach((book) -> System.out.println(book));
+        bookList.forEach((book) -> System.err.println(book));
     }
 
     @Test
