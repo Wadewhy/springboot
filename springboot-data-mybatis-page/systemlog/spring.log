@@ -1,0 +1,122 @@
+2019-12-27 11:24:45.622 [main] INFO  com.zzh.springbootdatamybatispage.BookMapperTest - Starting BookMapperTest on Wade-Why with PID 13332 (started by wadewhy in F:\MyIdeaProgram\SpringBoot\springboot\springboot-data-mybatis-page)
+2019-12-27 11:24:45.624 [main] INFO  com.zzh.springbootdatamybatispage.BookMapperTest - The following profiles are active: dev
+2019-12-27 11:24:46.785 [main] WARN  tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.zzh.springbootdatamybatispage]' package. Please check your configuration.
+2019-12-27 11:24:46.871 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-27 11:24:47.002 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 93ms. Found 0 JPA repository interfaces.
+2019-12-27 11:24:47.769 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 11:24:49.427 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-27 11:24:49.880 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-12-27 11:24:49.882 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-12-27 11:24:49.883 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-12-27 11:24:49.887 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-12-27 11:24:50.201 [main] INFO  com.zzh.springbootdatamybatispage.BookMapperTest - Started BookMapperTest in 5.676 seconds (JVM running for 9.113)
+2019-12-27 11:24:50.838 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-27 11:26:39.327 [main] INFO  com.zzh.springbootdatamybatispage.BookMapperTest - Starting BookMapperTest on Wade-Why with PID 896 (started by wadewhy in F:\MyIdeaProgram\SpringBoot\springboot\springboot-data-mybatis-page)
+2019-12-27 11:26:39.329 [main] INFO  com.zzh.springbootdatamybatispage.BookMapperTest - The following profiles are active: dev
+2019-12-27 11:26:41.220 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.zzh.springbootdatamybatispage]' package. Please check your configuration.
+2019-12-27 11:26:41.327 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-27 11:26:41.462 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 101ms. Found 0 JPA repository interfaces.
+2019-12-27 11:26:43.210 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 11:26:45.584 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-27 11:26:46.040 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-12-27 11:26:46.041 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-12-27 11:26:46.044 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-12-27 11:26:46.045 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-12-27 11:26:46.628 [main] INFO  com.zzh.springbootdatamybatispage.BookMapperTest - Started BookMapperTest in 7.914 seconds (JVM running for 9.626)
+2019-12-27 11:26:49.799 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-12-27 11:26:49.810 [main] DEBUG c.z.s.dao.BookMapper.selectOne - ==>  Preparing: SELECT id,author,name,price,create_time,description FROM book WHERE id = ? 
+2019-12-27 11:26:50.037 [main] DEBUG c.z.s.dao.BookMapper.selectOne - ==> Parameters: 2(Integer)
+2019-12-27 11:26:50.100 [main] DEBUG c.z.s.dao.BookMapper.selectOne - <==      Total: 1
+2019-12-27 11:26:50.117 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-27 11:26:50.128 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-12-27 11:28:07.404 [main] INFO  com.zzh.springbootdatamybatispage.BookMapperTest - Starting BookMapperTest on Wade-Why with PID 1292 (started by wadewhy in F:\MyIdeaProgram\SpringBoot\springboot\springboot-data-mybatis-page)
+2019-12-27 11:28:07.406 [main] INFO  com.zzh.springbootdatamybatispage.BookMapperTest - The following profiles are active: dev
+2019-12-27 11:28:08.511 [main] WARN  tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.zzh.springbootdatamybatispage]' package. Please check your configuration.
+2019-12-27 11:28:08.572 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-27 11:28:08.622 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 JPA repository interfaces.
+2019-12-27 11:28:09.578 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 11:28:11.006 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-27 11:28:11.566 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-12-27 11:28:11.568 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-12-27 11:28:11.570 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-12-27 11:28:11.573 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-12-27 11:28:11.917 [main] INFO  com.zzh.springbootdatamybatispage.BookMapperTest - Started BookMapperTest in 5.599 seconds (JVM running for 7.785)
+2019-12-27 11:28:12.616 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-27 11:29:56.747 [main] INFO  com.zzh.springbootdatamybatispage.BookMapperTest - Starting BookMapperTest on Wade-Why with PID 16024 (started by wadewhy in F:\MyIdeaProgram\SpringBoot\springboot\springboot-data-mybatis-page)
+2019-12-27 11:29:56.750 [main] INFO  com.zzh.springbootdatamybatispage.BookMapperTest - The following profiles are active: dev
+2019-12-27 11:29:58.917 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.zzh.springbootdatamybatispage]' package. Please check your configuration.
+2019-12-27 11:29:59.055 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-27 11:29:59.319 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68ms. Found 0 JPA repository interfaces.
+2019-12-27 11:30:01.147 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 11:30:07.867 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-27 11:30:09.181 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-12-27 11:30:09.183 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-12-27 11:30:09.186 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-12-27 11:30:09.192 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-12-27 11:30:09.773 [main] INFO  com.zzh.springbootdatamybatispage.BookMapperTest - Started BookMapperTest in 13.932 seconds (JVM running for 15.791)
+2019-12-27 11:30:14.635 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-12-27 11:30:14.648 [main] DEBUG c.z.s.dao.BookMapper.selectOne - ==>  Preparing: SELECT id,author,name,price,create_time,description FROM book WHERE id = ? 
+2019-12-27 11:30:14.873 [main] DEBUG c.z.s.dao.BookMapper.selectOne - ==> Parameters: 2(Integer)
+2019-12-27 11:30:14.953 [main] DEBUG c.z.s.dao.BookMapper.selectOne - <==      Total: 1
+2019-12-27 11:30:14.971 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-27 11:30:14.994 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-12-27 11:32:24.643 [main] INFO  com.zzh.springbootdatamybatispage.Book2MapperTest - Starting Book2MapperTest on Wade-Why with PID 11288 (started by wadewhy in F:\MyIdeaProgram\SpringBoot\springboot\springboot-data-mybatis-page)
+2019-12-27 11:32:24.646 [main] INFO  com.zzh.springbootdatamybatispage.Book2MapperTest - The following profiles are active: dev
+2019-12-27 11:32:26.481 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.zzh.springbootdatamybatispage]' package. Please check your configuration.
+2019-12-27 11:32:26.608 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-27 11:32:26.758 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 115ms. Found 0 JPA repository interfaces.
+2019-12-27 11:32:28.180 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 11:32:30.098 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-27 11:32:30.576 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-12-27 11:32:30.577 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-12-27 11:32:30.579 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-12-27 11:32:30.579 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-12-27 11:32:31.198 [main] INFO  com.zzh.springbootdatamybatispage.Book2MapperTest - Started Book2MapperTest in 7.412 seconds (JVM running for 9.278)
+2019-12-27 11:32:34.247 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-12-27 11:32:34.262 [main] DEBUG c.z.s.dao.BookMapper.selectOne - ==>  Preparing: SELECT id,author,name,price,create_time,description FROM book WHERE id = ? 
+2019-12-27 11:32:34.457 [main] DEBUG c.z.s.dao.BookMapper.selectOne - ==> Parameters: 2(Integer)
+2019-12-27 11:32:34.495 [main] DEBUG c.z.s.dao.BookMapper.selectOne - <==      Total: 1
+2019-12-27 11:32:34.512 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-27 11:32:34.525 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-12-27 11:34:53.298 [main] INFO  com.zzh.springbootdatamybatispage.BookMapperTest - Starting BookMapperTest on Wade-Why with PID 14976 (started by wadewhy in F:\MyIdeaProgram\SpringBoot\springboot\springboot-data-mybatis-page)
+2019-12-27 11:34:53.301 [main] INFO  com.zzh.springbootdatamybatispage.BookMapperTest - The following profiles are active: dev
+2019-12-27 11:34:55.080 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.zzh.springbootdatamybatispage]' package. Please check your configuration.
+2019-12-27 11:34:55.176 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-27 11:34:55.297 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91ms. Found 0 JPA repository interfaces.
+2019-12-27 11:34:57.207 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 11:34:59.474 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-27 11:34:59.976 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-12-27 11:34:59.978 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-12-27 11:34:59.979 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-12-27 11:34:59.980 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-12-27 11:35:00.622 [main] INFO  com.zzh.springbootdatamybatispage.BookMapperTest - Started BookMapperTest in 8.219 seconds (JVM running for 10.541)
+2019-12-27 11:35:04.081 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-12-27 11:35:04.093 [main] DEBUG c.z.s.dao.BookMapper.selectAll_COUNT - ==>  Preparing: SELECT count(0) FROM book 
+2019-12-27 11:35:04.286 [main] DEBUG c.z.s.dao.BookMapper.selectAll_COUNT - ==> Parameters: 
+2019-12-27 11:35:04.396 [main] DEBUG c.z.s.dao.BookMapper.selectAll_COUNT - <==      Total: 1
+2019-12-27 11:35:04.403 [main] DEBUG c.z.s.dao.BookMapper.selectAll - ==>  Preparing: SELECT id,author,name,price,create_time,description FROM book LIMIT ?, ? 
+2019-12-27 11:35:04.411 [main] DEBUG c.z.s.dao.BookMapper.selectAll - ==> Parameters: 3(Integer), 3(Integer)
+2019-12-27 11:35:04.415 [main] DEBUG c.z.s.dao.BookMapper.selectAll - <==      Total: 3
+2019-12-27 11:35:04.442 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-27 11:35:04.463 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-12-27 11:35:45.875 [main] INFO  com.zzh.springbootdatamybatispage.BookMapperTest - Starting BookMapperTest on Wade-Why with PID 5756 (started by wadewhy in F:\MyIdeaProgram\SpringBoot\springboot\springboot-data-mybatis-page)
+2019-12-27 11:35:45.878 [main] INFO  com.zzh.springbootdatamybatispage.BookMapperTest - The following profiles are active: dev
+2019-12-27 11:35:47.359 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.zzh.springbootdatamybatispage]' package. Please check your configuration.
+2019-12-27 11:35:47.466 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-27 11:35:47.626 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56ms. Found 0 JPA repository interfaces.
+2019-12-27 11:35:49.608 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 11:35:51.689 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-27 11:35:52.147 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-12-27 11:35:52.148 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-12-27 11:35:52.149 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-12-27 11:35:52.150 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-12-27 11:35:52.650 [main] INFO  com.zzh.springbootdatamybatispage.BookMapperTest - Started BookMapperTest in 7.489 seconds (JVM running for 9.458)
+2019-12-27 11:35:55.816 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-12-27 11:35:55.829 [main] DEBUG c.z.s.dao.BookMapper.selectAll_COUNT - ==>  Preparing: SELECT count(0) FROM book 
+2019-12-27 11:35:56.024 [main] DEBUG c.z.s.dao.BookMapper.selectAll_COUNT - ==> Parameters: 
+2019-12-27 11:35:56.083 [main] DEBUG c.z.s.dao.BookMapper.selectAll_COUNT - <==      Total: 1
+2019-12-27 11:35:56.092 [main] DEBUG c.z.s.dao.BookMapper.selectAll - ==>  Preparing: SELECT id,author,name,price,create_time,description FROM book LIMIT ?, ? 
+2019-12-27 11:35:56.097 [main] DEBUG c.z.s.dao.BookMapper.selectAll - ==> Parameters: 3(Integer), 3(Integer)
+2019-12-27 11:35:56.109 [main] DEBUG c.z.s.dao.BookMapper.selectAll - <==      Total: 3
+2019-12-27 11:35:56.129 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-27 11:35:56.137 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
