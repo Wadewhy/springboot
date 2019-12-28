@@ -30,6 +30,7 @@
         <module>springboot-data-mybatis</module>
         <module>springboot-data-mybatis-page</module>
         <module>springboot-mail</module>
+        <module>springboot-web-https</module>
     </modules>
 
 
