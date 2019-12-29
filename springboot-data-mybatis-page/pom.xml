@@ -19,7 +19,13 @@
     </properties>
 
     <dependencies>
-        <!-- Spring Boot web 开发整合 -->
+
+        <!-- 阿里 fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.47</version>
+        </dependency>  <!-- Spring Boot web 开发整合 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -37,12 +43,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- 阿里 fastjson -->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.47</version>
-        </dependency>
 
         <!-- Lombok 工具 -->
         <dependency>
